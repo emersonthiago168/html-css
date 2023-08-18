@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>Usando a tag <strong>CODE</strong>, é possível deixar os carácteres com o mesmo espaço (monoespaçado) facilitando a visualização. Por exemplo:</p>
+    <p>O comando document.getElementBy.Id('teste') é escrito em linguagem JavaScript. <strong>Nota-se como fica confuso a visualização do código</strong> </p>
+    <p>O comando <code>document.getElementBy.Id('teste')</code> é escrito em linguagem JavaScript. <strong>Aqui já se nota uma melhor visualização do código</strong></p>
+    <h2>Pré-formatação</h2>
+    <p>Usando a tag <strong>PRE</strong> é possível deixar o código do jeito que está escríto no arquivo HTML. Por exemplo:</p>
+    <p>
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR')
+            print('Fim do programa')
+        </code>
+    </p>
+    <p><strong>Nota-se que o código não foi quebrado, mesmo usando a tag CODE</strong></p>
+    <p><strong>Agora iremos utilizar a tag PRE no código</strong></p>
+    <p>
+        <pre>
+            <code>
+                num = int(input('Digite um número'))
+                if num % 2 == 0:
+                    print(f'O número {num} é PAR')
+                else:
+                    print(f'O número {num} é ÍMPAR')
+                print('Fim do programa')
+            </code>
+        </pre>
+    </p>
+    <p>Veja que ficou um espaço ao lado do código. Caso queira eliminar esse espaço, vá no seu arquivo HTML, selecione o código (apenas ele, sem as tags) e pressione <strong>Shift+Tab</strong> até ele ter ido todo para o canto.</p>
+    <p>
+        <pre>
+            <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim do programa') 
+            </code>
+        </pre>
+    </p>
+    <p>Caso queira fazer o contrário, selecione e utilize apenas a tecla <strong>Tab</strong></p>
+    <h2>Citações</h2>
+    <p>Podemos usar citações usando a tag <strong>Q</strong> dando sentido para a frase.</p>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Podemos usar citações completas quando forem para algo mais longo, como algo de autor usando a tag <strong>BLOCKQUOTE</strong></p>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html5+ano&printsec=frontcover">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus ea maxime quasi enim ex dolorum atque ullam, eius, similique pariatur alias nihil ratione officiis dolore adipisci veritatis reprehenderit tempora?
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Você pode adicionar abreviações usando a tag <strong>ABBR</strong></p>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading  Style Sheets">CSS</abbr></p>
+    <p>Passe o mouse por cima das siglals e veja o resultado.</p>
+    <h2>Texto invertido</h2>
+    <p>É possível criar textos invertidos utilizando a tag <strong>BDO</strong> <br>
+    Por exemplo: <strong>BDO:L</strong> será da esquerda para a direita e <strong>BDO:R</strong> da direita para a esquerda.
+    </p>
+    <p><bdo dir="rtl">Estou aprendendo coisas em HTML.</bdo></p>
+</body>
+</html>
