@@ -1,6 +1,6 @@
 # html-css
  Curso de HTML5 e CSS3
 
- Estou aprendendo sites e agora estou aprendendo gerenciar meus repositórios!
+Curso de HTML5 e CSS3 pelo CursoemVideo.
 
 <a href="https://emersonthiago168.github.io/projeto-android" target="_blank">Acesse meu projeto</a>
