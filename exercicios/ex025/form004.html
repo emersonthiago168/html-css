@@ -10,8 +10,13 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="iemail">E-mail</label>
-            <input type="email" name="email" id="iemail" autocomplete="email">
+            <input type="email" name="email" id="iemail" autocomplete="email" required>
         </p>
+        <p>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" required>
+        </p>
+        <!--Estudar mais RegEx-->
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
