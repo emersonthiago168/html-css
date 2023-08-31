@@ -7,9 +7,9 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
-            <label for="iest">Estado</label>
+            <label for="iest">Estado: </label>
             <select name="est" id="iest">
                 
                 <option value="" selected>--- Escolha ---</option>
@@ -28,7 +28,7 @@
         </p>
 
         <p>
-            <label for="iprof">Profissão</label>
+            <label for="iprof">Profissão: </label>
             <input type="text" name="prof" id="iprof" list="lstprof">
             <datalist id="lstprof">
                 <option>Administrador</option>
@@ -36,6 +36,12 @@
                 <option>Desenvolvedor</option>
                 <option>Professor</option>
             </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            <!--Para não ter problema de limitação por conta do caractéres, colocar o form em method:post-->
         </p>
         
         <p>
