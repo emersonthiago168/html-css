@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /* Aparelho landscape */
+
+body {
+    background-color: darkgreen;
+}
