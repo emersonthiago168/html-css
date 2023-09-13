@@ -7,6 +7,7 @@
 
     menu {
         display: block;
+        -webkit-animation: none;
     }
 
     menu > ul > li {

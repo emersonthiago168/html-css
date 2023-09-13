@@ -36,6 +36,12 @@ span#burguer:hover {
 
 menu {
     display: none;
+    -webkit-animation: animate-div 1s;
+}
+
+@-webkit-keyframes animate-div {
+    from { opacity: 0; margin-top: -200px;}
+    to { opacity: 1; margin-top: 0px;}
 }
 
 menu > ul {
