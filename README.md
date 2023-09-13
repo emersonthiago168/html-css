@@ -5,5 +5,6 @@ Acesse meus projetos ao longo desse curso:
 
 <a href="https://emersonthiago168.github.io/projeto-android" target="_blank">Projeto Android</a> <br>
 <a href="https://emersonthiago168.github.io/projeto-cordel" target="_blank">Projeto Cordel</a> <br>
-<a href="https://emersonthiago168.github.io/projeto-social" target="_blank">Projeto de Rede Sociais</a>
+<a href="https://emersonthiago168.github.io/projeto-social" target="_blank">Projeto de Rede Sociais</a> <br>
+<a href="https://emersonthiago168.github.io/projeto-login" target="_blank">Projeto de Login</a>
 
